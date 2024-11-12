@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="table.css">
+</head>
+<body>
+    <div class="main">
+        <div id="menu">
+            <div id="logo">
+                <h1><span id="maha">Maha</span>kal <span id="maha">Medi</span>cal</h1>
+                
+                <!-- <img src="zmahawhite.png" alt="" height="60px"> -->
+                <h1> </h1>
+            </div>
+            <div>
+                <p>we care of you...</p>
+            </div>
+            <hr width="235px" style="margin:10px; color:red;">
+            <div class="options">
+                <a href="dashboard.html" ><div id="dash"><span>Dashboard</span></div></a>
+                <a href="table.html" id="is"><div id="dash"><span>Tables</span></div></a>
+                <a href="insdata.html"><div id="dash"><span>Insert Data</span></div></a>
+                <a href="logout.html"><div id="dash"><span>Logout</span></div></a>
+
+            </div>
+            
+        </div>
+        <div class="content">
+        
+
+            <div class="section" >
+                <div class="tablee">
+                    <div id="hh">
+                        <h1>Medicine Order Table</h1>
+                    </div>
+                    <table >
+
+                        <thead class="head">
+
+                            <th>Buyer</th>
+                            <th>Contact </th>
+                            <th>Medicine Name</th>
+                            <th>Quantity</th>
+                            <th>Batch</th>
+                            <th>Price</th>
+                            <th>BuyMode</th>                          
+                            <th>OrderId</th>
+                            <th>Delete</th>
+                            <th>Edit</th>
+                            
+                        </thead>
+                        <tbody id="showdata">
+
+                        </tbody>
+                    </table>
+
+
+                    
+                </div>
+                <div id="editform">
+                        
+                </div>
+            </div>
+
+
+        </div>
+
+
+    </div>
+
+
+
+    <script src="script.js"></script>
+
+
+</body>
+</html>

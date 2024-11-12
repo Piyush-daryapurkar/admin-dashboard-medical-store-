@@ -1,0 +1,239 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    
+}
+
+/* main */
+
+
+.main{
+    display: flex;
+    background-color: rgb(194, 194, 185);
+}
+#maha{
+    color: rgb(140, 22, 22);
+}
+
+
+#menu{
+    height: 100vh;
+    width:260px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(136, 125, 125);    position: relative;
+    color: white;
+
+
+    *{
+        z-index: 1;
+    }
+
+}
+
+
+#menu #logo{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 15px 0px;
+}
+
+#menu .options{
+
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    
+
+    a{
+        text-decoration: none;
+        color: white;
+        font-size: 20px;
+        padding: 15px 0px;
+        display: flex;
+        width: 260px;
+        justify-content: center;
+
+
+
+        i{
+            padding-right: 8px;
+        }
+
+    }
+
+    #is{
+        background-color: rgba(71, 79, 84, 0.753);
+        color:rgb(0, 170, 255);
+    }
+
+}
+
+
+
+
+.content .section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+
+
+        
+        
+        #hh{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+            top:30px;
+
+            h1{
+                margin-top: 10px;
+                background-color:rgb(244, 14, 14);
+                border: transparent;
+                border-radius: 10px;
+                color:white;
+                width: 50%;
+                height:46px;
+                text-align: center;
+                border-radius: 60%;
+            }
+        }
+        
+    }
+
+    table{
+        border-radius: 5px;
+        border:3px solid black;
+        position: relative;
+        top:46px;
+        margin-left: 40px;
+        
+        
+        thead{
+            background-color: rgb(140, 22, 22);
+            border: 0px rgba(0, 0, 0, 0.874);
+            
+        }
+
+        tbody{
+
+            
+            td{
+                padding:8px 0px;
+                font-size: 18px;
+                text-align: center;
+                color: rgb(7, 1, 1);
+
+                i{
+                    color: black;
+                }
+            }
+            
+            
+            tr{
+                background-color: rgb(247, 238, 223);
+                &:nth-child(2n){
+                    
+                    
+                }
+            }
+        }
+        
+        
+    }
+
+    th{
+        padding:10px 17px;
+        border: 0px transparent;
+        font-size: 23px;
+        color:rgb(247, 247, 247)
+        
+    }
+
+
+    #editform{
+        display: flex;
+        justify-content: center;
+        
+        margin-top: 110px;
+        
+        form{
+            position: relative;
+            
+            padding:30px;
+            background-color: white;
+            border: 3px solid black; 
+            border-radius:50px;
+            align-items: center;
+
+            h1{
+                text-align: center;
+                padding: 10px 5px;
+                color: white;
+                background-color: rgb(117, 93, 15);
+                position: relative;
+                border: none;
+                border-radius:50%;
+                top: -90px;
+            }
+            select{
+                
+                border: 1px solid black;
+               
+                background-color: transparent;
+                border-radius: 50px;
+                margin-bottom: 20px;
+                padding: 5px;
+                font-size: 18px;
+                color: rgb(58, 58, 58);
+                width: 50vh;
+            }
+            label{
+                color: rgb(65, 64, 64);
+                font-size: 23px;
+                padding: 20px;
+                
+            }
+            input{
+                
+                border: 1px solid black;
+                background-color: transparent;
+                border-radius: 50px;
+                margin-bottom: 20px;
+                padding: 5px;
+                font-size: 18px;
+                color: rgb(58, 58, 58);
+                width: 50vh;
+            }
+
+            .btn{
+                display: flex;
+                justify-content: center;
+
+                button{
+                    font-size: 16px;
+                    background-color: black;
+                    color: white;
+                    padding:15px 25px;
+                    border: transparent;
+                    border-radius:25px;
+                }
+            }
+            
+            
+            
+        }
+        
+        
+
+        
+    }
+
+
+

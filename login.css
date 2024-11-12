@@ -1,0 +1,162 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+  
+  body {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .hero {
+    background: url("Screenshot\ 2024-10-18\ 120538.png") no-repeat center center/cover;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+  }
+  
+  .hero::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .hero * {
+    z-index: 20;
+  }
+
+  .hero .navbar img {
+    height: 100px;
+    margin-top: 30px;
+  }
+#sign{
+    color:black;
+}
+  
+  
+  .hero .main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  
+  .hero .main h1 {
+    font-size: 30px;
+    width: 300px;
+    color: rgb(18, 1, 1);
+    border: 2px solid black;
+    padding: 10px;
+    border-radius: 50px;
+    background-color: rgb(187, 38, 38);
+    margin-top: 40px;
+  }
+  label{
+    color: black;
+    font-size: large;
+    font-weight: 60;
+  }
+  #password{
+    border: 2px solid black;
+    border-radius: 50px;
+    width: 260px;
+    height: 42px;
+    padding: 12px;
+  }#email{
+    border: 2px solid black;
+    border-radius: 50px;
+    width: 260px;
+    height: 42px;
+    padding: 12px;
+
+
+  }
+  
+  .login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0px;
+  }
+  
+  .login div {
+    padding: 50px;
+    background-color: rgb(205, 196, 196);
+    border: transparent;
+    border-radius: 50px;
+
+
+    .btn{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding:0px;
+        margin:10px;
+
+        button{
+            padding: 8px 10px;
+            font-size: 16px;
+            background-color: #c12f1b;
+            color: black;
+            border:transparent;
+            border-radius: 50px;
+            width: 200px;
+
+          
+        }
+    }
+  }
+
+
+  
+  .login div input {
+    border: transparent;
+    padding: 10px 5px;
+    margin: 10px;
+    border-radius: 3px;
+  }
+  
+  .login div a {
+    color: rgb(245, 40, 40);
+    text-decoration: none;
+  }
+  
+  .login div a:hover {
+    color: #1f1106;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .hero {
+      height: 110vh;
+    }
+    .hero .navbar label {
+      display: block;
+    }
+    .hero .navbar ul {
+      flex-direction: column;
+      position: absolute;
+      top: 90px;
+      background-color: #051922;
+      width: 100%;
+      display: none;
+      z-index: 21;
+    }
+    .hero .navbar ul li {
+      padding: 10px;
+    }
+    .hero .navbar ul li a {
+      color: white;
+    }
+    #click:checked ~ .hero .navbar ul {
+      display: block;
+    }
+  }/*# sourceMappingURL=login.css.map */

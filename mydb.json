@@ -1,0 +1,114 @@
+{
+  "studant": [
+    {
+      "cname": "hemant",
+      "contact": "6260002693",
+      "mname": "lactulos ",
+      "quantity": "1pc",
+      "batch": "sp237e",
+      "price": "10$",
+      "buymode": "online",
+      "id": "d5fc"
+    },
+    {
+      "cname": "pradeep ",
+      "contact": "9424637368",
+      "mname": "omnigal",
+      "quantity": "1pc",
+      "batch": "om37Q",
+      "price": "64rs",
+      "buymode": "online",
+      "id": "1ab0"
+    },
+    {
+      "cname": "ashutosh",
+      "contact": "9898797420",
+      "mname": "horlics",
+      "quantity": "1pc",
+      "batch": "s4d4s",
+      "price": "370rs",
+      "buymode": "ofline",
+      "id": "1758"
+    },
+    {
+      "cname": "shivam",
+      "contact": "78936241779",
+      "mname": "citrazin",
+      "quantity": "10tab",
+      "batch": "s45s4",
+      "price": "10rs",
+      "buymode": "ofline",
+      "id": "b903"
+    },
+    {
+      "id": "3edd",
+      "cname": "prajwal",
+      "contact": "7067401132",
+      "mname": "zerodol",
+      "quantity": "10tab",
+      "batch": "as54s",
+      "price": "120",
+      "buymode": "online"
+    },
+    {
+      "cname": "tushar ",
+      "contact": "9691669983",
+      "mname": "durex ",
+      "quantity": "1box",
+      "batch": "dsd4sd",
+      "price": "900rs",
+      "buymode": "online",
+      "id": "de52"
+    },
+    {
+      "cname": "taha",
+      "contact": "8962474087",
+      "mname": "born-vita",
+      "quantity": "1pc",
+      "batch": "4sass4",
+      "price": "380rs",
+      "buymode": "online",
+      "id": "2bb6"
+    },
+    {
+      "id": "1b42",
+      "cname": "abhishekh",
+      "contact": "924697898",
+      "mname": "green tea",
+      "quantity": "2pc",
+      "batch": "ss7sd",
+      "price": "360rs",
+      "buymode": "ofline"
+    },
+    {
+      "cname": "vishvajit",
+      "contact": "7887788998",
+      "mname": "pentop-40",
+      "quantity": "10tab",
+      "batch": "s5sa456",
+      "price": "100",
+      "buymode": "online",
+      "id": "6cf0"
+    },
+    {
+      "cname": "kartik",
+      "contact": "92301889326",
+      "mname": "montas-L",
+      "quantity": "1tab",
+      "batch": "dsd4s",
+      "price": "100",
+      "buymode": "online",
+      "id": "1ecb"
+    },
+    {
+      "id": "5f84",
+      "cname": "aryan",
+      "contact": "9049830568",
+      "mname": "paracitsmol",
+      "quantity": "10tab",
+      "batch": "5654s",
+      "price": "10rs",
+      "buymode": "ofline"
+    }
+  ]
+}

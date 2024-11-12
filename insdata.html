@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="insdata.css">
+</head>
+<body>
+    <div class="main">
+        <div id="menu">
+            <div id="logo">
+                <h1><span id="maha">Maha</span>kal <span id="maha">Medi</span>cal</h1>
+                
+                <!-- <img src="zmahawhite.png" alt="" height="60px"> -->
+                <h1> </h1>
+            </div>
+            <div>
+                <p>we care of you...</p>
+            </div>
+            <hr width="235px" style="margin:10px; color:red;">
+            <div class="options">
+                <a href="dashboard.html" ><div id="dash"><span> Dashboard</span></div></a>
+                <a href="table.html"><div id="dash"><span>Tables</span></div></a>
+                <a href="insdata.html" id="is"><div id="dash"><span>Insert Data</span></div></a>
+                <a href="logout.html" ><div id="dash"><span>Logout</span></div></a>
+
+            </div>
+            
+        </div>
+        <div class="content">
+       
+            <div class="insform">
+
+                
+                <form action="" class="form" onsubmit="return insData()">
+                    <h1>Insert New Data</h1>
+                 
+                    <label for="cname">Buyer Name </label>
+                    <input type="text" id="cname" ><br>
+
+                    <label for="contact">Contact&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                    <input type="text" id="contact" ><br>
+
+                    <label for="fname">Medicine&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                    <input type="text" id="mname" ><br>
+
+                    <label for="quantity">Quantity&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                    <input type="text" id="quantity" ><br>
+
+                    <label for="batch">Batch&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                    <input type="text" id="batch" ><br>
+
+                    <label for="price">Price&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                    <input type="text" id="price" ><br>
+                    
+                    <label for="omode">OrderMode</label>
+                    <!-- <input type="text" id="buymode" ><br> -->
+                     <select id="buymode">
+                        <option>online</option>
+                        <option>ofline</option>
+                     </select>
+
+                    <div class="btn">
+                        <button type="submit">Insert Data</button>
+                    </div>
+                </form>
+                
+            </div>
+
+
+        </div>
+
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
